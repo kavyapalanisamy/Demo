@@ -13,7 +13,6 @@ public class Mouse_move {
         while (true) {
             robot.mouseMove(random.nextInt(MAX_X), random.nextInt(MAX_Y));
             TimeUnit.MINUTES.sleep(2);
-            System.out.println();
         }
     }
 }

@@ -24,7 +24,6 @@ public class Demo {
 			System.out.println(Option.getText());
 		}
 		driver.close();
-		System.out.println();
 		
 		
 	}
